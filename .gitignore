@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore log files
+*.log
+.env
+
+# Ignore npm debug files
+npm-debug.log*
+
+EmojiCo.zip

@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "DayTasks",
+    "version": "1.0",
+    "description": "Shows how much time is left for your day to end + a small todo list.",
+    "icons": {
+        "149": "icons/icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://timely-note.vercel.app/*"
+    ],
+    "browser_action": {
+        "default_icon": "icons/icon.png",
+        "default_popup": "popup/popup.html"
+    }
+}
