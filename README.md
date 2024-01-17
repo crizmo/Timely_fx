@@ -11,7 +11,7 @@ DayTasks is a browser extension that helps you manage your time and tasks. It sh
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/DayTasks.git`
+1. Clone this repository: `git clone https://github.com/crizmo/Timely_fx.git`
 2. Navigate to `about:debugging` in your browser
 3. Click on 'This Firefox' in the sidebar
 4. Click on 'Load Temporary Add-on...'
