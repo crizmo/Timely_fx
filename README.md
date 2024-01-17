@@ -1,36 +1,44 @@
-# Emojico Firefox Extension
+# DayTasks
 
-This is a Firefox extension that converts the Emojico website into a browser extension.
+DayTasks is a browser extension that helps you manage your time and tasks. It shows how much time is left in your day and provides a simple todo list for you to keep track of your tasks.
 
 ## Features
 
-- Opens the Emojico website in a popup.
-- Listens for browser events using a background script.
+- Countdown timer showing how much time is left in your day
+- Todo list for managing your tasks
+- Tasks are saved in your browser's local storage so they persist across sessions
+- Tasks can be marked as done or undone
 
 ## Installation
 
-To install this extension:
+1. Clone this repository: `git clone https://github.com/yourusername/DayTasks.git`
+2. Navigate to `about:debugging` in your browser
+3. Click on 'This Firefox' in the sidebar
+4. Click on 'Load Temporary Add-on...'
+5. Select the `manifest.json` file in the `DayTasks` folder
+6. The extension should now be installed and you can use it in your browser
 
-1. Download or clone this repository.
-2. Open Firefox and navigate to `about:debugging`.
-3. Click "This Firefox".
-4. Click "Load Temporary Add-on…”.
-5. Navigate to the directory where you downloaded or cloned this repository and select any file.
+OR
 
-Or you can install the extension from the [Firefox Add-ons website](https://addons.mozilla.org/en-US/firefox/addon/emojico/).
+1. Get the extension from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/daytasks/)
+2. The extension should now be installed and you can use it in your browser
+
+
+## Usage
+
+Click on the DayTasks icon in your browser toolbar to open the popup. Here you can see the countdown timer and your todo list. To add a task, type it into the input field and press Enter. To mark a task as done or undone, click on the checkbox next to it. To delete a task, click on the 'x' button next to it.
 
 ## Permissions
 
 This extension requires the following permissions:
 
-- `activeTab`: Allows the extension to access the currently active tab.
-- `tabs`: Allows the extension to interact with browser tabs.
-- `https://emojico.vercel.app/*`: Allows the extension to access the Emojico website.
+- `storage`: Needed to save your tasks in local storage
+- `https://timely-note.vercel.app/*`: Needed to fetch data from this domain
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request.
+Contributions are welcome! Please open an issue if you have any suggestions or find any bugs.
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+MIT

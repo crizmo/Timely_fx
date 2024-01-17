@@ -7,7 +7,6 @@
         "149": "icons/icon.png"
     },
     "permissions": [
-        "activeTab",
         "storage",
         "https://timely-note.vercel.app/*"
     ],
